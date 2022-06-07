@@ -1,0 +1,372 @@
+<html lang="en">
+
+<head>
+     <!-- Required meta tags -->
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+     <!-- Bootstrap CSS -->
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+     <!-- title and style -->
+     <title>High-Fidelity_Interactive_Prototype</title>
+
+     <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+     <!-- navbar -->
+     <nav class="navbar navbar-expand-lg fixed-top bg-dark navbar-dark pt-3">
+          <div class="container-fluid">
+               <a href="#intro" class="navbar-brand">
+                    <!-- link to intro section -->
+                    <span class="fw-bold fs-3 text-light ms-3">
+                         <i class="bi bi-cpu"></i> SymbolE
+                    </span>
+               </a>
+
+               <!-- toggle button for small screen nav -->
+               <!-- Taking reference from https://www.youtube.com/watch?v=7AT1X9Z41sA&list=PL4cUxeGkcC9joIM91nLzd_qaH_AimmdAR&index=9 -->
+               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navLinks"
+                    aria-controls="navLinks" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+               </button>
+
+               <!-- navbar links -->
+               <div class="container">
+                    <div class="collapse navbar-collapse justify-content-end align-center fs-6 " id="navLinks">
+                         <ul>
+                              <li class="aboutUs"><a href="#aboutUs">ABOUT US</a></li>
+                              <li class="services"><a href="#services">SERVICES</a></li>
+                              <li class="experts"><a href="#experts">EXPERTS</a></li>
+                              <li class="btn btn-primary btn-sm fs-6"><a href="Appointment.html">Appoint now</a></li>
+                         </ul>
+                    </div>
+               </div>
+          </div>
+     </nav>
+
+     <!-- introduction -->
+     <section id="intro" class="pt-5">
+          <div class="containter-fluid">
+               <!-- main image and nav buttons -->
+               <div class="background-image" style="background-image: url('/BG-Pictures/Intro.jpg');">
+                    <!-- masking -->
+                    <div class="mask" style="background-color: rgba(0, 0, 0, 0.6); height: 800px">
+                         <div class="text-light text-center pt-5 d-flex justify-content-center align-items-center h-100">
+                              <div class="p btn-group-lg pb-4" role="group" aria-label="Basic example">
+                                   <div class="display-4 fw-bold mb-5 pb-5">Welcome to Your Perfessional Electronics Repairments
+                                   </div>
+                                   <a href="/Computer.html#checkbox" class="btn btn-light py-5 me-5 mb-5">COMPUTER</a>
+                                   <a href="/Phone.html#checkbox" class="btn btn-light p-5 me-5 mb-5">PHONE</a>
+                                   <a href="#services" class="btn btn-light p-5 mb-5">ALL</a>
+                              </div>
+                         </div>
+                    </div>
+               </div>
+          </div>
+     </section>
+
+     <!-- About us -->
+     <section id="aboutUs">
+          <!-- seraching box -->
+          <div class="container-fluid bg-dark">
+               <div class="container-lg">
+                    <div class="row justify-content-center align-center">
+                         <div class="col-lg-6">
+                              <form>
+                                   <div class="m-4 input-group">
+                                        <span class="input-group-text">
+                                             <i class="bi bi-search"></i>
+                                        </span>
+                                        <input type="text" class="form-control" id="searchingBar"
+                                             placeholder="Search services/experts">
+                                   </div>
+                              </form>
+                         </div>
+                    </div>
+               </div>
+          </div>
+
+          <div class="p-3">
+               <div class="container-fluid">
+                    <div class="container-lg my-3">
+                         <div class="text-center pb-4">
+                              <div class="border-bottom border-dark">
+                                   <h2 class="fw-bold">Our Information</h2>
+                                   <p class="lead">Feel free to contact us and meet us at store directly</p>
+                              </div>
+
+                         </div>
+                    </div>
+
+                    <ul class="row list-group list-group-horizontal justify-content-center align-items-center">
+                         <div class="col-8 col-lg-4 col-xl-4 container-fluid text-center">
+                              <div class="border border-5 me-5">
+                                   <li class="list-group-item bg-transparent py-3">
+                                        <h2 class="text-dark p-3">Opening Hours</h2>
+                                        <p>Mon-Fri: 9:30 Am to 6:30 Pm</p>
+                                        <p>Sat: 10:30 Am to 5:30 Pm</p>
+                                        <p>Sun: 2:30 Am to 5:30 Pm</p>
+                                   </li>
+                              </div>
+                         </div>
+
+                         <div class="col-8 col-lg-4 col-xl-3 container-fluid text-center">
+                              <div class="border border-5 me-5">
+                                   <li class="list-group-item bg-transparent py-3">
+                                        <h2 class="text-dark p-3">Location</h2>
+                                        <p>224 Lyon Street North,</p>
+                                        <p>Ottawa, ON,</p>
+                                        <p>K1R 0C1</p>
+                                   </li>
+                              </div>
+                         </div>
+
+                         <div class="col-8 col-lg-4 col-xl-4 container-fluid text-center">
+                              <div class="border border-5">
+                                   <li class="list-group-item bg-transparent py-3">
+                                        <h2 class="text-dark p-3">Contact Us</h2>
+                                        <p>Phone: 613-869-3039</p>
+                                        <p>email: PthahnilGuo@outlook.com</p>
+                                        <p>Fax: 188-1538-8239</p>
+                                   </li>
+                              </div>
+                         </div>
+                    </ul>
+               </div>
+          </div>
+     </section>
+
+     <!-- services -->
+     <section id="services" class="bg-light mt-5 pb-3">
+          <div class="containter-fluid">
+               <!-- service image-->
+               <div class="background-image" style="background-image: url('/BG-Pictures/Services.jpg');">
+                    <!-- masking -->
+                    <div class="mask" style="background-color: rgba(0, 0, 0, 0.6); height: 800px">
+                         <div
+                              class="display-4 text-light text-center d-flex justify-content-center align-items-center h-100">
+                              Repair and Mantain All Your Electronics
+                         </div>
+                    </div>
+               </div>
+
+               <div class="container-lg my-4">
+                    <div class="text-center">
+                         <div class="border-bottom border-dark">
+                              <h2 class="fw-bold mt-3">All Services Provided</h2>
+                              <p class="lead text-muted">Click on See Details to choose the service you want to make an
+                                   appointment</p>
+                         </div>
+                    </div>
+
+                    <!-- services descriptions -->
+                    <div class="row my-5 align-items-center justify-content-center g-3">
+                         <div class="col-8 col-lg-4 col-xl-3">
+                              <div class="card" style="width: 18rem;">
+                                   <img src="/BG-Pictures/services/1.jpg" class="card-img-top" alt="service-1">
+                                   <div class="card-body">
+                                        <h3 class="fw-bold text-center">Computer</h3>
+                                        <p class="card-text">Reqairements and Mantainences for any types and brands of
+                                             computur with an average cost of $100</p>
+                                        <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                                             <a href="/Computer.html#checkbox" class="btn btn-primary card-link">See
+                                                  Details</a>
+                                        </div>
+                                   </div>
+                              </div>
+                         </div>
+
+                         <div class="col-8 col-lg-4 col-xl-3">
+                              <div class="card" style="width: 18rem;">
+                                   <div class="card-body">
+                                        <h3 class="fw-bold text-center">Phone</h3>
+                                        <p class="card-text">Resolve any phone related issues for any barnds with an
+                                             average cost of $60 with free screen protector application</p>
+                                        <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                                             <a href="/Phone.html#checkbox" class="btn btn-primary card-link">See
+                                                  Details</a>
+                                        </div>
+                                   </div>
+                                   <img src="/BG-Pictures/services/2.jpg" class="card-img-top" alt="service-2">
+                              </div>
+                         </div>
+
+                         <div class="col-8 col-lg-4 col-xl-3">
+                              <div class="card" style="width: 18rem;">
+                                   <img src="/BG-Pictures/services/3.jpg" class="card-img-top" alt="service-3">
+                                   <div class="card-body">
+                                        <h3 class="fw-bold text-center">Game Console</h3>
+                                        <p class="card-text">Reqairements and Mantainences for PlayStation, Xbox, and
+                                             Nintendo Switch with an average cost of $100</p>
+                                        <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                                             <a href="/GameConsoles.html#checkbox" class="btn btn-primary card-link">See
+                                                  Details</a>
+                                        </div>
+                                   </div>
+                              </div>
+                         </div>
+
+                         <div class="col-8 col-lg-4 col-xl-3">
+                              <div class="card" style="width: 18rem;">
+                                   <div class="card-body">
+                                        <h3 class="fw-bold text-center">Home Appliances</h3>
+                                        <p class="card-text">Reqairements and Mantainences for any types of home
+                                             appliances with an average cost of $100</p>
+                                        <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                                             <a href="/HomeAppliances.html#checkbox"
+                                                  class="btn btn-primary card-link">See
+                                                  Details</a>
+                                        </div>
+                                   </div>
+                                   <img src="/BG-Pictures/services/4.jpg" class="card-img-top" alt="service-4">
+                              </div>
+                         </div>
+                    </div>
+               </div>
+          </div>
+     </section>
+
+     <!-- experts -->
+     <section id="experts" class="bg-light pb-3">
+          <div class="containter-fluid">
+               <!-- expert image-->
+               <div class="background-image" style="background-image: url('/BG-Pictures/Expert.jpg');">
+                    <!-- masking -->
+                    <div class="mask" style="background-color: rgba(0, 0, 0, 0.6); height: 800px">
+                         <div
+                              class="display-4 text-light text-center d-flex justify-content-center align-items-center h-100">
+                              Provide Satisfied Services With Our Professional Experts
+                         </div>
+                    </div>
+               </div>
+
+               <div class="container-lg my-4">
+                    <div class="text-center">
+                         <div class="border-bottom border-dark">
+                              <h2 class="fw-bold mt-3">Meet Your Perfessional Experts</h2>
+                              <p class="lead text-muted">Don't know what the specific problem is? Talk to one of the
+                                   experts directly.</p>
+                         </div>
+                    </div>
+
+                    <!-- experts descriptions -->
+                    <div class="row mt-5 mb-4 align-items-center justify-content-center g-3">
+                         <div class="col-8 col-lg-8 col-xl-6">
+                              <div class="card" style="width: auto;">
+                                   <div class="row card-body m-2">
+                                        <div class="col-5">
+                                             <img src="/BG-Pictures/Experts/1.jpg" class="card-img-top" alt="expert-1">
+                                             <h4 class="fw-bold text-center pt-3">Pthahnil Guo</h4>
+                                        </div>
+
+                                        <div class="col-8 col-lg-7 col-xl-7 text-center">
+                                             <ol class="list-group list-group-numbered mt-5">
+                                                  <li class="list-group-item text-start">
+                                                       Expert for Laptop and Desktop repairement and maintanence
+                                                  </li>
+                                                  <li class="list-group-item text-start">
+                                                       Proficient in resolving problem of Operationg system (Windows/Mac
+                                                       OS)
+                                                  </li>
+                                             </ol>
+
+                                             <a href="AppointmentDiagnose.html" class="btn btn-primary mt-3">Make an appointment</a>
+                                        </div>
+                                   </div>
+                              </div>
+                         </div>
+
+                         <div class="col-8 col-lg-8 col-xl-6">
+                              <div class="card" style="width: auto;">
+                                   <div class="row card-body m-2">
+                                        <div class="col-5">
+                                             <img src="/BG-Pictures/Experts/2.jpg" class="card-img-top" alt="expert-2">
+                                             <h4 class="fw-bold text-center pt-3">Olivia Avery</h4>
+                                        </div>
+
+                                        <div class="col-8 col-lg-7 col-xl-7 text-center">
+                                             <ol class="list-group list-group-numbered mt-5">
+                                                  <li class="list-group-item text-start">
+                                                       Expert for PlayStation, Xbox, and Nintendo Switch
+                                                       repairement and maintanence
+                                                  </li>
+                                                  <li class="list-group-item text-start">
+                                                       Proficient in repairing any type of game controller
+                                                  </li>
+                                             </ol>
+
+                                             <a href="AppointmentDiagnose.html" class="btn btn-primary mt-3">Make an appointment</a>
+                                        </div>
+                                   </div>
+                              </div>
+                         </div>
+                    </div>
+
+                    <div class="row mb-5 align-items-center justify-content-center g-3">
+                         <div class="col-8 col-lg-8 col-xl-6">
+                              <div class="card" style="width: auto;">
+                                   <div class="row card-body m-2">
+                                        <div class="col-5">
+                                             <img src="/BG-Pictures/Experts/3.jpg" class="card-img-top" alt="expert-3">
+                                             <h4 class="fw-bold text-center pt-3">Oliver Wang</h4>
+                                        </div>
+
+                                        <div class="col-8 col-lg-7 col-xl-7 text-center">
+                                             <ol class="list-group list-group-numbered mt-5">
+                                                  <li class="list-group-item text-start">
+                                                       Expert for Phone, Pad, smart watch, head-phone,  and ear-phone
+                                                       repariements
+                                                  </li>
+                                                  <li class="list-group-item text-start">
+                                                       Proficient in resolving problem of both Andriod and iOS system
+                                                  </li>
+                                             </ol>
+
+                                             <a href="AppointmentDiagnose.html" class="btn btn-primary mt-3">Make an appointment</a>
+                                        </div>
+                                   </div>
+                              </div>
+                         </div>
+
+                         <div class="col-8 col-lg-8 col-xl-6">
+                              <div class="card" style="width: auto;">
+                                   <div class="row card-body m-2">
+                                        <div class="col-5">
+                                             <img src="/BG-Pictures/Experts/4.jpg" class="card-img-top" alt="expert-4">
+                                             <h4 class="fw-bold text-center pt-3">Ali Johns</h4>
+                                        </div>
+
+                                        <div class="col-8 col-lg-7 col-xl-7 text-center">
+                                             <ol class="list-group list-group-numbered mt-5">
+                                                  <li class="list-group-item text-start">
+                                                       Expert for any types of home appliances repairement and
+                                                       maintanence
+                                                  </li>
+                                                  <li class="list-group-item text-start">
+                                                       Proficient in resolving problem of home circuit
+                                                  </li>
+                                             </ol>
+
+                                             <a href="AppointmentDiagnose.html" class="btn btn-primary mt-3">Make an appointment</a>
+                                        </div>
+                                   </div>
+                              </div>
+                         </div>
+                    </div>
+               </div>
+          </div>
+     </section>
+
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous">
+          </script>
+
+     <script src="./main.js"></script>
+</body>
+
+</html>

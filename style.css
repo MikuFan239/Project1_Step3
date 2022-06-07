@@ -1,0 +1,17 @@
+/* This code is taking the reference from https://www.youtube.com/watch?v=RsPWEmfOQdU */
+
+nav .collapse ul li {
+     display: inline-block;
+}
+
+nav .collapse ul li a {
+     display: inline-block;
+     text-decoration: none;
+     padding: 10px 50px;
+     color: white;
+}
+
+nav .container ul li.active {
+     background-color: #6c757d;
+     transition: 0.3s ease background-color;
+}

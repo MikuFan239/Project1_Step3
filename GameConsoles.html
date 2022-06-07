@@ -1,0 +1,209 @@
+<html lang="en">
+
+<head>
+     <!-- Required meta tags -->
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+     <!-- Bootstrap CSS -->
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+     <!-- title and style -->
+     <title>Game Consoles</title>
+
+     <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+     <!-- navbar -->
+     <nav class="navbar navbar-expand-lg bg-dark navbar-dark pt-3">
+          <div class="container-fluid">
+               <a href="Welcome.html" class="navbar-brand">
+                    <!-- link to intro section -->
+                    <span class="fw-bold fs-3 text-light mx-3">
+                         <i class="bi bi-cpu"></i> SymbolE
+                    </span>
+               </a>
+
+               <!-- toggle button for small screen nav -->
+               <!-- Taking reference from https://www.youtube.com/watch?v=7AT1X9Z41sA&list=PL4cUxeGkcC9joIM91nLzd_qaH_AimmdAR&index=9 -->
+               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navLinks"
+                    aria-controls="navLinks" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+               </button>
+
+               <!-- navbar links -->
+               <div class="container">
+                    <div class="collapse navbar-collapse justify-content-end align-end fs-6" id="navLinks">
+                         <ul>
+                              <li class="aboutUs"><a href="/Welcome.HTML#aboutUs">ABOUT US</a></li>
+                              <li class="services"><a href="/Welcome.HTML#services">SERVICES</a></li>
+                              <li class="experts"><a href="/Welcome.HTML#experts">EXPERTS</a></li>
+                              <li class="btn btn-primary btn-sm  fs-6"><a href="/Welcome.HTML#intro">Home</a></li>
+                         </ul>
+                    </div>
+               </div>
+          </div>
+     </nav>
+
+     <!-- main image -->
+     <div class="containter-fluid">
+          <!-- main image -->
+          <div class="background-image" style="background-image: url('/BG-Pictures/ServiceSelectMainPage.jpg');">
+               <!-- masking -->
+               <div class="mask" style="background-color: rgba(0, 0, 0, 0.6); height: 800px">
+                    <div
+                         class="display-4 fw-bold text-light text-center d-flex justify-content-center align-items-center h-100">
+                         Repair and Maintan for All Your Electronics
+                    </div>
+               </div>
+          </div>
+     </div>
+
+     <!-- Services Selection -->
+     <div class="card text-center border border-0" id="checkbox">
+          <!-- tabs -->
+          <div class="card-header pt-3 bg-dark">
+               <ul class="nav nav-tabs card-header-tabs">
+                    <li class="nav-item">
+                         <a class="nav-link fs-3 text-light" aria-current="true"
+                              href="/Computer.html#checkbox">Computer</a>
+                    </li>
+                    <li class="nav-item">
+                         <a class="nav-link fs-3 text-light" aria-current="true" href="/Phone.html#checkbox">Phone</a>
+                    </li>
+                    <li class="nav-item">
+                         <a class="nav-link active fs-3 text-dark" aria-current="true"
+                              href="/GameConsoles.html#checkbox">Game Consoles</a>
+                    </li>
+                    <li class="nav-item">
+                         <a class="nav-link fs-3 text-light" aria-current="true"
+                              href="/HomeAppliances.html#checkbox">Home Appliances</a>
+                    </li>
+               </ul>
+          </div>
+
+          <!-- Services checkbox -->
+          <div class="card-body">
+               <div class="container-fluid border-bottom border-dark mb-5">
+                    <h3 class="card-title fw-bold pt-3">Select the Service(s) You Want</h3>
+                    <p class="card-text lead pb-3">Not sure or the desired service not shown, make appointment to the <a href="./Appointment.html">Game Console expert</a> directly</p>
+               </div>
+
+               <div class="card-group">
+                    <div class="card">
+                         <img src="/BG-Pictures/Game Consoles/1.jpg" class="card-img-top" alt="gCon1">
+                         <div class="card-body">
+                              <h4 class="card-title fw-bold">PlayStation</h4>
+                              <div class="container-fluid">
+                                   <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                        <label class="form-check-label" for="flexCheckDefault">
+                                             Fatal issues resolving:
+                                             <p class="card-text text-center"><small class="text-muted">Such as unable to start-up, storage issues, and etc.</small></p>
+                                        </label>
+                                        <p class="fw-bold pt-2">$59.99</p>
+                                   </div>
+
+                                   <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                        <label class="form-check-label" for="flexCheckDefault">
+                                             Normal Maintanence:
+                                             <p class="card-text text-center"><small class="text-muted">Including dedusting, Silicone grease replacement, and Whole cleaning</small></p>
+                                        </label>
+                                        <p class="fw-bold pt-2">$39.99</p>
+                                   </div>
+
+                                   <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                        <label class="form-check-label" for="flexCheckDefault">
+                                             Controller readjustment:
+                                        </label>
+                                        <p class="fw-bold pt-2">$29.99</p>
+                                   </div>
+                              </div>
+                         </div>
+                    </div>
+
+                    <div class="card">
+                         <img src="/BG-Pictures/Game Consoles/2.jpg" class="card-img-top" alt="gCon2">
+                         <div class="card-body">
+                              <h4 class="card-title fw-bold">Xbox</h4>
+                              <div class="container-fluid">
+                                   <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                        <label class="form-check-label" for="flexCheckDefault">
+                                             Fatal issues resolving:
+                                             <p class="card-text text-center"><small class="text-muted">Agency for Microsoft after sale, your device will be returned to factory directly.</small></p>
+                                        </label>
+                                        <p class="fw-bold pt-2">$0 for warranty period</p>
+                                   </div>
+
+                                   <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                        <label class="form-check-label" for="flexCheckDefault">
+                                             Normal Maintanence:
+                                             <p class="card-text text-center"><small class="text-muted">Including dedusting, Silicone grease replacement, and Whole cleaning</small></p>
+                                        </label>
+                                        <p class="fw-bold pt-2">$29.99</p>
+                                   </div>
+
+                                   <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                        <label class="form-check-label" for="flexCheckDefault">
+                                             Controller readjustment:
+                                        </label>
+                                        <p class="fw-bold pt-2">$19.99</p>
+                                   </div>
+                              </div>
+                         </div>
+                    </div>
+
+                    <div class="card">
+                         <img src="/BG-Pictures/Game Consoles/3.jpg" class="card-img-top" alt="gCon3">
+                         <div class="card-body">
+                              <h4 class="card-title fw-bold">Nentindo Switch</h4>
+                              <div class="container-fluid">
+                                   <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                        <label class="form-check-label" for="flexCheckDefault">
+                                             Screen replacement:
+                                        </label>
+                                        <p class="fw-bold pt-2">$99.99</p>
+                                   </div>
+
+                                   <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                        <label class="form-check-label" for="flexCheckDefault">
+                                             Joy-con shifting resolve:
+                                        </label>
+                                        <p class="fw-bold pt-2">$39.99</p>
+                                   </div>
+                                   
+                                   <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                        <label class="form-check-label" for="flexCheckDefault">
+                                             Back-Shell replacement:
+                                             <p class="card-text text-center"><small class="text-muted">Back-Shell deformation due to heating</small></p>
+                                        </label>
+                                        <p class="fw-bold pt-2">$29.99</p>
+                                   </div>
+                              </div>
+                         </div>
+                    </div>
+               </div>
+          </div>
+          <div class="container">
+               <a href="Appointment.html" class="btn btn-primary m-3">Make an Appointment</a>
+          </div>
+     </div>
+
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+          crossorigin="anonymous"></script>
+</body>
+
+</html>
