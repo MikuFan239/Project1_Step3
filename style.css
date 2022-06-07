@@ -44,6 +44,7 @@ a {
   padding: 0;
   margin: 0;
 }
+
 #webCifar {
   --color-1: #17bcb4;
   --color-2: #24252a;
@@ -151,10 +152,10 @@ a {
   cursor: pointer;
   z-index: 1;
   position: relative;
-  right: -27%;
+  right: -65%;
   border: 1px solid #ffffff7d;
 }
 
 #webCifar-icon svg {
-  max-width: 20px;
+  max-width: 30px;
 }
