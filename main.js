@@ -19,6 +19,18 @@ window.addEventListener("scroll", () => {
   });
 });
 
+// For floating card in right bottom corner
+const WebCifarIcon = document.querySelector("#webCifar-icon");
+const WebCifarEl = document.querySelector("#webCifar");
+const close = WebCifarEl.querySelector(".close");
+
+WebCifarIcon.addEventListener("click", () => {
+  WebCifarEl.classList.add("active");
+});
+close.addEventListener("click", () => {
+  WebCifarEl.classList.remove("active");
+});
+
 /* The following part of the code is taking the reference from https://stackoverflow.com/questions/68662850/datepicker-bootstrap-5*/
 startDate.addEventListener('change',(e)=>{
   document.getElementById('startDateSelected').innerText = startDateVal
