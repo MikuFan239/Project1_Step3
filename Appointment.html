@@ -90,11 +90,11 @@
                                                   <i class="bi bi-person-fill"></i>
                                              </span>
 
-                                             <input type="text" id="validationUserFirstname" aria-label="First name"
+                                             <input type="text" id="UserFirstname" aria-label="First name"
                                                   class="form-control" placeholder="First name"
                                                   aria-describedby="inputGroupPrepend" required>
 
-                                             <input type="text" id="validationUserLastname" aria-label="Last name"
+                                             <input type="text" id="UserLastname" aria-label="Last name"
                                                   class="form-control" placeholder="Last name"
                                                   aria-describedby="inputGroupPrepend" required>
 
@@ -110,8 +110,8 @@
                                                   <i class="bi bi-envelope-fill"></i>
                                              </span>
 
-                                             <input type="text" id="validationUserEmail" aria-label="Email"
-                                                  class="form-control" placeholder="e.g. PthahnilGuo@outlook.com"
+                                             <input type="text" id="UserEmail" aria-label="Email" class="form-control"
+                                                  placeholder="e.g. PthahnilGuo@outlook.com"
                                                   aria-describedby="inputGroupPrepend" required>
 
                                              <div class="invalid-feedback">
@@ -319,7 +319,6 @@
 
                                              <!-- Buttons for validation and modal trigger-->
                                              <div class="row justify-content-center m-3">
-                                                  <!-- <input type="submit" value="Submit" /> -->
                                                   <button class="btn btn-primary text-center mt-3" type="submit"
                                                        data-bs-toggle="modal"
                                                        data-bs-target="#confirmModal">Submit</button>
@@ -334,8 +333,7 @@
 
      <!--modal -->
      <!-- Taking reference from https://www.youtube.com/watch?v=tt5uUMQgzl0&list=PL4cUxeGkcC9joIM91nLzd_qaH_AimmdAR&index=16 -->
-     <div class="modal fade" id="confirmModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
-          aria-labelledby="modal-title" aria-hidden="true">
+     <div class="modal fade" id="confirmModal" role="dialog" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="modal-title" aria-hidden="true">
           <div class="modal-dialog">
                <div class="modal-content">
                     <div class="modal-header">
@@ -415,16 +413,36 @@
           });
      </script>
 
-     <!-- https://stackoverflow.com/questions/46826452/only-show-modal-after-validation-check-and-form-has-been-submitted -->
+     <!-- The code istaking the reference from https://stackoverflow.com/questions/45914792/validate-form-before-bootstrap-modal-popup-->
      <script>
-          $('#appointForm').on('submit', function (e) {
-               e.preventDefault(); //stop submit
+          $('#appointForm').on('#submit', function (e) {
+               e.preventDefault();
 
-               if ($('#startDate').is(':checked')) {
-                    //Check if checkbox is checked then show modal
+               var validated = checkValidation();
+               if (validated) {
                     $('#confirmModal').modal('show');
                }
           });
+          
+          function checkValidation() {
+               var isValid = true;
+               if ($("#UserFirstname").val() == null) {
+                    isValid = false;
+               }
+               if ($("#UserLastname").val() == null) {
+                    isValid = false;
+               }
+               if ($("#UserEmail").val() == null) {
+                    isValid = false;
+               }
+               if ($("#startDate").val() == null) {
+                    isValid = false;
+               }
+               if ($("#datetime").val() == null) {
+                    isValid = false;
+               }
+               return true;
+          }
      </script>
 </body>
 
