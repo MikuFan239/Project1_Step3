@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.b6a02219.css",
-    "main.js": "/static/js/main.ee005d3f.js",
+    "main.css": "/static/css/main.edf93967.css",
+    "main.js": "/static/js/main.895f0828.js",
     "static/js/787.2075b2b2.chunk.js": "/static/js/787.2075b2b2.chunk.js",
     "static/media/2019_Photo_Gallery.png": "/static/media/2019_Photo_Gallery.8febd65946033019e443.png",
     "static/media/2020MM_summer.png": "/static/media/2020MM_summer.35fd370212bb25ff1dda.png",
@@ -18,12 +18,12 @@
     "static/media/Miku_NT_2.png": "/static/media/Miku_NT_2.51381b6de4412cdb3570.png",
     "static/media/Miku_V2.png": "/static/media/Miku_V2.955174fc50c8467dc178.png",
     "index.html": "/index.html",
-    "main.b6a02219.css.map": "/static/css/main.b6a02219.css.map",
-    "main.ee005d3f.js.map": "/static/js/main.ee005d3f.js.map",
+    "main.edf93967.css.map": "/static/css/main.edf93967.css.map",
+    "main.895f0828.js.map": "/static/js/main.895f0828.js.map",
     "787.2075b2b2.chunk.js.map": "/static/js/787.2075b2b2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b6a02219.css",
-    "static/js/main.ee005d3f.js"
+    "static/css/main.edf93967.css",
+    "static/js/main.895f0828.js"
   ]
 }
