@@ -1,29 +1,40 @@
 {
   "files": {
-    "main.css": "/static/css/main.edf93967.css",
-    "main.js": "/static/js/main.895f0828.js",
+    "main.css": "/static/css/main.d8a3e3c9.css",
+    "main.js": "/static/js/main.7cb740c8.js",
     "static/js/787.2075b2b2.chunk.js": "/static/js/787.2075b2b2.chunk.js",
+    "static/media/Miku_V4_CN.png": "/static/media/Miku_V4_CN.92ffafff59d58613a202.png",
+    "static/media/2013MM.png": "/static/media/2013MM.52682748c64d452fdf6f.png",
     "static/media/2019_Photo_Gallery.png": "/static/media/2019_Photo_Gallery.8febd65946033019e443.png",
+    "static/media/2014MM.png": "/static/media/2014MM.aea39b8b1460ba7e8c07.png",
     "static/media/2020MM_summer.png": "/static/media/2020MM_summer.35fd370212bb25ff1dda.png",
+    "static/media/2015MM.png": "/static/media/2015MM.7fa7e0a2c071df60df71.png",
+    "static/media/2016MM.png": "/static/media/2016MM.e3138c8a54d26c71d800.png",
     "static/media/2019_Costume_1.png": "/static/media/2019_Costume_1.94c13b4353d90c5d3537.png",
     "static/media/2019_Costume_2.png": "/static/media/2019_Costume_2.8c9ebf70f03f0eb2df56.png",
     "static/media/2019MM.png": "/static/media/2019MM.efb84d2056b8592097dd.png",
+    "static/media/2017MM.png": "/static/media/2017MM.f3bbe54289c174f3e194.png",
     "static/media/Miku_NT_1.png": "/static/media/Miku_NT_1.c67262ea0b9b87150495.png",
     "static/media/2022MM.png": "/static/media/2022MM.a6ac2ef50a9ade887aeb.png",
     "static/media/2021MM.png": "/static/media/2021MM.79cba6ce026143e30025.png",
+    "static/media/Miku_V2_App.png": "/static/media/Miku_V2_App.f01237419c7047fbb202.png",
     "static/media/Miku_V4.png": "/static/media/Miku_V4.396fd035d458bec55c29.png",
     "static/media/Miku_V3.png": "/static/media/Miku_V3.cc4670dd3e03cec2b2e9.png",
     "static/media/Hatsune_miku_logo_v3.png": "/static/media/Hatsune_miku_logo_v3.2418a4fc40b356bfb805.png",
+    "static/media/Miku_Sekai.png": "/static/media/Miku_Sekai.eca0d870eae131645668.png",
     "static/media/2018MM.png": "/static/media/2018MM.d5f49b79887e88da8670.png",
+    "static/media/Miku_V3_EN.png": "/static/media/Miku_V3_EN.3e9bb3e9377486cdbb86.png",
     "static/media/Miku_NT_2.png": "/static/media/Miku_NT_2.51381b6de4412cdb3570.png",
     "static/media/Miku_V2.png": "/static/media/Miku_V2.955174fc50c8467dc178.png",
+    "static/media/left-arrow.png": "/static/media/left-arrow.9f5917a9c5663230c37e.png",
+    "static/media/right-arrow.png": "/static/media/right-arrow.eb6ef8f2e55de45d8ac2.png",
     "index.html": "/index.html",
-    "main.edf93967.css.map": "/static/css/main.edf93967.css.map",
-    "main.895f0828.js.map": "/static/js/main.895f0828.js.map",
+    "main.d8a3e3c9.css.map": "/static/css/main.d8a3e3c9.css.map",
+    "main.7cb740c8.js.map": "/static/js/main.7cb740c8.js.map",
     "787.2075b2b2.chunk.js.map": "/static/js/787.2075b2b2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.edf93967.css",
-    "static/js/main.895f0828.js"
+    "static/css/main.d8a3e3c9.css",
+    "static/js/main.7cb740c8.js"
   ]
 }
