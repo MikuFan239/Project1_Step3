@@ -2,7 +2,8 @@
     "SideNav": {
         "timeline":"TIMELINE",
         "join": "HOW TO JOIN",
-        "about": "ABOUT"
+        "about": "ABOUT",
+        "quiz": "QUIZ"
     },
     "Home": {
         "intro-title": "MIKU'S CONCERT GALLERY",
@@ -36,6 +37,14 @@
         "2014-artist": "Art by MONQ",
         "2013": "Magical Mirai 2013",
         "2013-artist": "Art by CHRIS"
+    },
+    "MM2021": {
+      "subtitle": "\"MARGICAL MIRAI 2021\"",
+      "intro-tt-h3": "Fairy Tale Fantasy"
+    },
+    "MM2020": {
+      "subtitle": "\"MARGICAL MIRAI 2020\"",
+      "intro-tt-h3": "Summer Festival"
     },
     "MM2019": {
       "title": "HATSUNE MIKU",
@@ -92,6 +101,24 @@
       "comment-title": "COMMENTS",
       "comment-input": "PLEASE SEND YOUR FRIENDLY COMMENT"
   },
+  "MM2018": {
+    "subtitle": "\"MARGICAL MIRAI 2018\""
+  },
+  "MM2017": {
+    "subtitle": "\"MARGICAL MIRAI 2017\""
+  },
+  "MM2016": {
+    "subtitle": "\"MARGICAL MIRAI 2016\""
+  },
+  "MM2015": {
+    "subtitle": "\"MARGICAL MIRAI 2015\""
+  },
+  "MM2014": {
+    "subtitle": "\"MARGICAL MIRAI 2014\""
+  },
+  "MM2013": {
+    "subtitle": "\"MARGICAL MIRAI 2013\""
+  },
   "Join": {
     "title": "HOW TO JOIN THE CONCERT",
     "subtitle": "OF HATSUNE MIKU",
@@ -118,5 +145,38 @@
     "step-3-p-4": ", and you can pick up the tickets or passes at both airports.",
 
     "step-4-title": "Wish you a good journey, See you in Magical Mirai!"
+  },
+  "Quiz": {
+    "title": "QUIZ",
+
+    "q1-text": "Who is the artist for the main visual of Magical Mirai 2019?",
+    "q1-ans-1": "fujichoco",
+    "q1-ans-2": "iXima",
+    "q1-ans-3": "ni02",
+    "q1-ans-4": "Pikazo",
+
+    "q2-text": "What is the year's theme of Magical Mirai 2021?",
+    "q2-ans-1": "Future Circus",
+    "q2-ans-2": "Fairy Tale Fantasy",
+    "q2-ans-3": "Summer Festival",
+    "q2-ans-4": "Winter Festival",
+
+    "q3-text": "Which year does Magical Mirai hold in three cities?",
+    "q3-ans-1": "2022",
+    "q3-ans-2": "2013",
+    "q3-ans-3": "2015",
+    "q3-ans-4": "2019",
+
+    "q4-text": "What is the theme song of Magical Mirai 2020?",
+    "q4-ans-1": "39music!",
+    "q4-ans-2": "Bless Your Breath",
+    "q4-ans-3": "Dune",
+    "q4-ans-4": "Because You're Here",
+
+    "q5-text": "Which Magical Mirai was hold between November and December?",
+    "q5-ans-1": "2016",
+    "q5-ans-2": "2018",
+    "q5-ans-3": "2021",
+    "q5-ans-4": "2020"
   }
 }
